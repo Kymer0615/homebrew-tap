@@ -1,5 +1,28 @@
 # Kymer0615 Homebrew tap
 
+## Spray Can
+
+Free, open-source keyboard navigation for macOS with native Liquid Glass labels, adaptive placement, and optional private on-device OCR.
+
+```sh
+brew install --cask kymer0615/tap/spray-can
+open "/Applications/Spray Can.app"
+```
+
+Supports Apple Silicon and Intel on macOS 14 or later. Liquid Glass requires macOS 26+. Enable Accessibility and Input Monitoring; Screen Recording is optional for OCR.
+
+Version 0.1.0 is ad hoc signed and not notarized by Apple. If macOS blocks first launch, use **System Settings → Privacy & Security → Open Anyway**. If you installed manually, quit and move the existing app out of Applications before switching to Homebrew. Ordinary uninstall retains preferences.
+
+```sh
+brew update
+brew upgrade --cask kymer0615/tap/spray-can
+brew uninstall --cask spray-can
+```
+
+[Source, documentation, and releases](https://github.com/Kymer0615/spray_can) · [Issues](https://github.com/Kymer0615/spray_can/issues)
+
+For updates, copy the generated cask from a verified versioned release into `Casks/spray-can.rb` and run `brew style --cask kymer0615/tap/spray-can` and `brew audit --cask kymer0615/tap/spray-can` before publishing.
+
 ## Countdown Menu Bar
 
 Native macOS menu bar countdowns with exact deadlines, UTC/AoE and named time zones, progress icons, and desktop widgets.
