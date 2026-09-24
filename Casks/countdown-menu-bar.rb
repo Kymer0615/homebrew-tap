@@ -1,6 +1,6 @@
 cask "countdown-menu-bar" do
-  version "1.2.0"
-  sha256 "8821a3e338d6ef7bef0d113bdb1c58efb7c6717d545a19a1c4827748bc3b5b88"
+  version "1.3.0"
+  sha256 "aa0297f18ee0fa098325f01fa633e1c4071fe013de3187ba256072dadd8b43f4"
 
   url "https://github.com/Kymer0615/mac_countdown/releases/download/v#{version}/Countdown-Menu-Bar-#{version}-universal.zip"
   name "Countdown Menu Bar"
