@@ -9,9 +9,9 @@ brew install --cask kymer0615/tap/spray-can
 open "/Applications/Spray Can.app"
 ```
 
-Supports Apple Silicon and Intel on macOS 14 or later. Liquid Glass requires macOS 26+. Enable Accessibility and Input Monitoring; Screen Recording is optional for OCR.
+Supports Apple Silicon and Intel on macOS 14 or later. Liquid Glass requires macOS 26+. Enable Accessibility for navigation; Screen Recording is optional for OCR. Keyboard capture status is shown in the app without a separate Input Monitoring setup.
 
-Version 0.1.0 is ad hoc signed and not notarized by Apple. If macOS blocks first launch, use **System Settings → Privacy & Security → Open Anyway**. If you installed manually, quit and move the existing app out of Applications before switching to Homebrew. Ordinary uninstall retains preferences.
+Version 0.1.1 is ad hoc signed and not notarized by Apple. If macOS blocks first launch, use **System Settings → Privacy & Security → Open Anyway**. If you installed manually, quit and move the existing app out of Applications before switching to Homebrew. Ordinary uninstall retains preferences.
 
 ```sh
 brew update
