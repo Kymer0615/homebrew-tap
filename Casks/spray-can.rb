@@ -1,6 +1,6 @@
 cask "spray-can" do
-  version "0.1.6"
-  sha256 "0da752cecdc7e872bf6b43fbd8cb92de5ec8b7c780d97af7e2d8c0dde00650fd"
+  version "0.1.7"
+  sha256 "7304e782a74f335294fb2dddd97e8ba963fd84dc1892ed4c805d0ce515dafe8e"
 
   url "https://github.com/Kymer0615/spray_can/releases/download/v#{version}/SprayCan-#{version}-universal.zip"
   name "Spray Can"
@@ -19,7 +19,7 @@ cask "spray-can" do
   ]
 
   caveats <<~EOS
-    This app is ad hoc signed and is not notarized by Apple.
+    This app is signed with the project's own certificate and is not notarized by Apple.
     If macOS blocks the first launch, allow it in System Settings >
     Privacy & Security > Open Anyway, then open it again.
   EOS
