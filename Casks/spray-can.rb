@@ -1,6 +1,6 @@
 cask "spray-can" do
-  version "0.1.22"
-  sha256 "bc67e560a4028b38729ca59eb8f6bd3d8b993098530c02c1dcbb8558ae38a6a4"
+  version "0.1.23"
+  sha256 "acb563b5fc4073df403bccc9a1ca9cf95e796020bc5b680983c5264aab6b7daf"
 
   url "https://github.com/Kymer0615/spray_can/releases/download/v#{version}/SprayCan-#{version}-universal.zip"
   name "Spray Can"
